@@ -1,0 +1,31 @@
+# Segredos do bnbagent-studio (carteira, senha, chaves de API)
+.studio/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Entregas geradas localmente pelo agente (dados de compradores)
+**/.agent-data/
+
+# Chaves e certificados (ex.: chave RSA do merchant B402)
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Configurações locais do Claude Code
+**/.claude/settings.local.json
+
+# Build / dependências / logs
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+coverage/
+
+# Sistema / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
